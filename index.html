@@ -28,7 +28,7 @@
 </xml><![endif]-->
 </head>
     
-    <body style="background-color: rgb(92, 57, 219);">
+    <body style="background-color: rgb(20, 22, 70);">
         
         <div class="row">
             <!-- This is a comment. It won't appear in your page -->
@@ -41,44 +41,44 @@
 
 
 
-            <div class="image-container"><img id="donut1" src="Images/Droplet-01.png" onmouseover="this.src='Images/Droplet-02.png';" onmouseout="this.src='Images/Droplet-01.png';" width="200" height="200"/></div>
-            <div class="image-container"><img id="donut2" src="img/donut_02.png" onmouseover="this.src='img/donut_02_dark.png';" onmouseout="this.src='img/donut_02.png';" width="200" height="200"/></div>
-            <div class="image-container"><img id="donut3" src="img/donut_03.png" onmouseover="this.src='img/donut_03_dark.png';" onmouseout="this.src='img/donut_03.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="leaf" src="Images/leaf1.png" onmouseover="this.src='Images/leaf2.png';" onmouseout="this.src='Images/leaf1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="candle" src="Images/candle1.png" onmouseover="this.src='Images/candle2.png';" onmouseout="this.src='Images/candle1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="writing" src="Images/write1.png" onmouseover="this.src='Images/write2.png';" onmouseout="this.src='Images/write1.png';" width="200" height="200"/></div>
         </div>
 
         <div class="row">
-            <div class="image-container"><img id="donut4" src="img/donut_04.png" onmouseover="this.src='img/donut_04_dark.png';" onmouseout="this.src='img/donut_04.png';" width="200" height="200"/></div>
-            <div class="image-container"><img id="donut5" src="img/donut_05.png" onmouseover="this.src='img/donut_05_dark.png';" onmouseout="this.src='img/donut_05.png';" width="200" height="200"/></div>
-            <div class="image-container"><img id="donut6" src="img/donut_06.png" onmouseover="this.src='img/donut_06_dark.png';" onmouseout="this.src='img/donut_06.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="sea" src="Images/sea1.png" onmouseover="this.src='Images/sea2.png';" onmouseout="this.src='Images/sea1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="meditation" src="Images/yoga1.png" onmouseover="this.src='Images/yoga2.png';" onmouseout="this.src='Images/yoga1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="music" src="Images/music1.png" onmouseover="this.src='Images/music2.png';" onmouseout="this.src='Images/music1.png';" width="200" height="200"/></div>
         </div>
 
         <div class="row">
-            <div class="image-container"><img id="donut7" src="img/donut_07.png" onmouseover="this.src='img/donut_07_dark.png';" onmouseout="this.src='img/donut_07.png';" width="200" height="200"/></div>
-            <div class="image-container"><img id="donut8" src="img/donut_08.png" onmouseover="this.src='img/donut_08_dark.png';" onmouseout="this.src='img/donut_08.png';" width="200" height="200"/></div>
-            <div class="image-container"><img id="donut9" src="img/donut_09.png" onmouseover="this.src='img/donut_09_dark.png';" onmouseout="this.src='img/donut_09.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="flower" src="Images/flower1.png" onmouseover="this.src='Images/flower2.png';" onmouseout="this.src='Images/flower1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="tea" src="Images/tea1.png" onmouseover="this.src='Images/tea2.png';" onmouseout="this.src='Images/tea1.png';" width="200" height="200"/></div>
+            <div class="image-container"><img id="droplet" src="Images/droplet1.png" onmouseover="this.src='Images/droplet2.png';" onmouseout="this.src='Images/droplet1.png';" width="200" height="200"/></div>
         </div>
 
         <script>
-            var sound1 = new buzz.sound("Sounds/Running Water.mp3");
-            var sound2 = new buzz.sound("sound/glitch2.mp3");
-            var sound3 = new buzz.sound("sound/glitch3.mp3");
-            var sound4 = new buzz.sound("sound/glitch4.mp3");
-            var sound5 = new buzz.sound("sound/glitch5.mp3");
-            var sound6 = new buzz.sound("sound/glitch6.mp3");
-            var sound7 = new buzz.sound("sound/glitch7.mp3");
-            var sound8 = new buzz.sound("sound/glitch8.mp3");
-            var sound9 = new buzz.sound("sound/glitch9.mp3");
+            var sound1 = new buzz.sound("Sounds/nature.mp3");
+            var sound2 = new buzz.sound("Sounds/candle.mp3");
+            var sound3 = new buzz.sound("Sounds/write.mp3");
+            var sound4 = new buzz.sound("Sounds/sea.mp3");
+            var sound5 = new buzz.sound("Sounds/meditation.mp3");
+            var sound6 = new buzz.sound("Sounds/music.mp3");
+            var sound7 = new buzz.sound("Sounds/flower.mp3");
+            var sound8 = new buzz.sound("Sounds/tea.mp3");
+            var sound9 = new buzz.sound("Sounds/droplet.mp3");
 
             window.onload = function() {
-                document.getElementById('donut1').addEventListener('click', function () {sound1.play();});
-                document.getElementById('donut2').addEventListener('click', function () {sound2.play();});
-                document.getElementById('donut3').addEventListener('click', function () {sound3.play();});
-                document.getElementById('donut4').addEventListener('click', function () {sound4.play();});
-                document.getElementById('donut5').addEventListener('click', function () {sound5.play();});
-                document.getElementById('donut6').addEventListener('click', function () {sound6.play();}); 
-                document.getElementById('donut7').addEventListener('click', function () {sound7.play();});
-                document.getElementById('donut8').addEventListener('click', function () {sound8.play();});
-                document.getElementById('donut9').addEventListener('click', function () {sound9.play();});
+                document.getElementById('leaf').addEventListener('click', function () {sound1.play();});
+                document.getElementById('candle').addEventListener('click', function () {sound2.play();});
+                document.getElementById('writing').addEventListener('click', function () {sound3.play();});
+                document.getElementById('sea').addEventListener('click', function () {sound4.play();});
+                document.getElementById('meditation').addEventListener('click', function () {sound5.play();});
+                document.getElementById('music').addEventListener('click', function () {sound6.play();}); 
+                document.getElementById('flower').addEventListener('click', function () {sound7.play();});
+                document.getElementById('tea').addEventListener('click', function () {sound8.play();});
+                document.getElementById('droplet').addEventListener('click', function () {sound9.play();});
             };
         </script>
 
